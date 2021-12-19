@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a class="logo" href="index.html"><img src="VIT_LOG.jpg"></a>
+            <!-- <div class="name">Experia</div> -->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="companies.html">COMPANIES</a></li> 
+                    <li><a href="seniors2.html">GUIDE JUNIORS</a></li>        
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <div class="text-box">
+           <h1>Experia</h1>
+           <p>Experia is a website which  will help you to find list of <br>companies where students are placed from Vishwakarma Institute of Technology , Pune</p>
+            <a href="https://www.vit.edu/" class="hero-btn">Click here to know more about VIT,Pune</a>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div>
+        <h3>ABOUT</h3>
+        <pre class="desc">
+            Vishwakarma Institute of Technology, Pune, a highly commendable private institute,
+            occupies a place of pride amongst the premier technical institutes of the western region of 
+            India. Established in the year 1983, financed and run by the Bansilal Ramnath Agrawal Charitable Trust, Pune.
+            It is affiliated to the University of Pune . Within three decades, 
+            the institute marched towards the pinnacle of glory through its remarkable achievements and laurels
+            in the field of engineering education of high calibre. According to Indian history,
+            'Vishwakarma' is a divine architect-engineer.
+            It is believed that He fashioned this world with His rare engineering skills.
+            The Trust adopted this name with a vision to develop engineers of high calibre,
+            who could take up challenges of any type of engineering job and become successful in the chosen career. 
+            The average salary package offered in placements of VIT,Pune is 8 LPA,
+            Around 80% of the students get internships from the college in good companies.
+            Few Companies are CREDIT SUISSE, NVIDIA, TOMTOM, Deutsche Bank, Siemens.
+            Experia will help you out to find out where students have been placed and will provide 
+            the student's LinkedIn profile which will help Juniors to upgrade themselves with respective skills. 
+        </pre>
+        <br>
+        <div class="icons">
+            <a href=" (1) Epec Vit | Facebook" class="fa fa-facebook"></a> 
+            <a href="VIT Pune EPEC (@vit_pune_official) • Instagram photos and videos" class="fa fa-instagram"></a> 
+            <a href=" (10) Vishwakarma Institute Of Technology: Overview | LinkedIn" class="fa fa-linkedin"></a>  
+            <a href="https://www.vit.edu/" class="fa fa-google"></a> 
+        </div>
+    </div>
+    </section>
+    <!-- /* -------JS for toggle menu----- --*/ -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+
+    </script>
+</body>
+</html>

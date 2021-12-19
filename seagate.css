@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    width:100%;
+    min-height: 115vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
+}
+
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+}
+
+nav img{
+    width:150px;
+}
+
+nav img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+nav-links{
+    flex:1;
+    text-align: right;   
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:  13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+.name{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 160px;
+    padding-left: 20px;
+    width:10%;
+    height:50px;
+}
+
+.credit_suisse{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student{
+    width:20%;
+    height: 350px;
+    margin:15px;
+    padding:15px;
+}
+
+.stu_pic1{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQF7-nz-1TInYg/profile-displayphoto-shrink_400_400/0/1612294054646?e=1645660800&v=beta&t=Mb3jZ4cY0kII-riRWBHg-MLbs02lObOCXRrIiz2ppng);
+}
+
+.stu_name{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration:none ;
+    color: black;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background: white;
+    position: relative;
+    cursor:pointer;  
+}
+
+.stu_name:hover{
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+
+.intern{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration:none ;
+    color: black;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    margin-left: 600px;
+    line-height: 40px;
+    font-size: 20px;
+    background: white;
+    position: relative;
+    cursor:pointer;  
+}
+
+.intern:hover{
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+
+.stu_pic2{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQHuqtWYHKQvTw/profile-displayphoto-shrink_400_400/0/1633100203508?e=1645660800&v=beta&t=vO5JQlpj3TcRBkaijs8TR_vo-jABTvnL1sw0zF4T3eg);
+}
+
+.stu_pic3{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQHSNwgR2sDSxg/profile-displayphoto-shrink_400_400/0/1611901875812?e=1645660800&v=beta&t=q9KqXxSBZRK0T8ovWEbOMPMCZBOYAJZzPEIKKmvsURY);
+}
+
+.stu_pic4{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQGBs6geqLcF0Q/profile-displayphoto-shrink_400_400/0/1636369584023?e=1645660800&v=beta&t=XXsS-WPQVdFbLIY-l7Ijqv6zaKK08w1ADPCHKJrnlUM);
+}
+
+.stu_pic5{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHj-tDtQuoHzw/profile-displayphoto-shrink_400_400/0/1594293650101?e=1645660800&v=beta&t=XbpJ01YiUqkpGw1d9bMrdbhEDl51IhRWT3Pr9QodWYk);
+}
+
+.stu_pic6{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQGsSybhHOBSWg/profile-displayphoto-shrink_400_400/0/1605358803655?e=1645660800&v=beta&t=urq_brPNNNtwPilrdVl4cmnWfjB3daMnzup4xOi-JX8);
+}
+
+.stu_pic7{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQG-ZAiZDnVvOA/profile-displayphoto-shrink_400_400/0/1582822940064?e=1645660800&v=beta&t=_QFB7-KrhebGCDUUjaQjjocFsUs8H5fztRcholVfJso);
+}
+
+.stu_pic8{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQFMTrXKMrJ0mw/profile-displayphoto-shrink_400_400/0/1593582997977?e=1645660800&v=beta&t=V9ba9hJTmHa0V3UG33zHFWGfGvo7G2cE6GiVEgLtRDs);
+}
+
+.stu_pic9{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQGRE5wzKtZnOA/profile-displayphoto-shrink_400_400/0/1532684455130?e=1645660800&v=beta&t=YdsrGj1Z-PrUF_QY0ei_LDF8EqeNtPTWfnMNXigKXXM);
+}
+
+.stu_pic10{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEXk5ueutLeqsbTn6eqpr7PJzc/j5ebf4eLZ3N2wtrnBxsjN0NLGysy6v8HT1tissra8wMNxTKO9AAAFDklEQVR4nO2d3XqDIAxAlfivoO//tEOZWzvbVTEpic252W3PF0gAIcsyRVEURVEURVEURVEURVEURVEURVEURVEURVEURflgAFL/AirAqzXO9R7XNBVcy9TbuMHmxjN6lr92cNVVLKEurVfK/zCORVvW8iUBnC02dj+Wpu0z0Y6QlaN5phcwZqjkOkK5HZyPAjkIjSO4fIdfcOwFKkJlX4zPu7Ha1tIcwR3wWxyFhRG6g4Je0YpSPDJCV8a2Sv2zd1O1x/2WMDZCwljH+clRrHfWCLGK8REMiql//2si5+DKWKcWeAGcFMzzNrXC/0TUwQ2s6+LhlcwjTMlYsUIQzPOCb7YBiyHopyLXIEKPEkI/TgeuiidK/R9FniUDOjRDpvm0RhqjMyyXNjDhCfIMYl1gGjIMIuYsnGEYRMRZOMMunaLVwpWRW008v6fYKDIzxCwVAeNSO90BJW6emelYBRF/kHpYGVaoxTDAaxOFsfP9y8hpJ4xd7gOcij7JNGQ1EYFgkPJa1jQEiYZXRaRINKxSDUW9n+FT82lSKadkiru9/4XPqSLWOekGPoY05TAvLm9orm+YWuwHoBHkZKijNBJGmeb61eL6Ff/6q7bLr7yvv3vKGhpDRjvgjGaPz+gUg6YgcvpyAR2FIZ9U6nEEyZRTovmEU32KichpGn7C17XrfyH9gK/c0CMP05HZIM2uf9sEveizKveBy9/6Qt7o89ne33D525cfcIMW6ab+TMEukQbQbu+xu7X3A9bChmWaCeAkG17bpntwXgWxHaMzGPmUaR5dQZiKqRVeUZ3047fi3nAu28h4CHxCsZAgmEH8Y27jJAhm8c+5RQzRQNVGhVFSfxOYIjp/pP7RxzjevYXVGf4eLt+BJ1vCuLuLkrgABgCGXZ2wik5uty+oBvNirI6mkzhAf4Gsb58Hcm67Jzd+KwD10BYPLL3e0MjvKrgAULnOfveF/O4N2Xb9BZom3gJes3F9X5Zze8/6Yt09b4CrqsEjUv8oFBaR2rl+6CZr2xVrp24o/WitBKuGrrpl1+bFkmK2qXTON4VpbdfLa7o7y/WdLxG7lm2Lqh2clOwTegbvc/vj2U78CwhA87Bn8G5Nk3eOb0Nsr9flz3sG78UUtue4kpv1xvjg3TMay62BMlTlP+vrOMnJsRmt/ze0jsfkPPYdAH57hK+34PeOyc8XIXu5xT2HsUkdZz+adwg8HGFfQ3K5jtDvbUiO4Di9/ywHGrL88pDizZ++oTp+an+SMX/ndymUCwmHMdO7yuOx83pUx/eEMU0AvxWndwgidAqOZ8ypCwdEfvvEo6D9HwpA8wzvmOJEqAg9ySu8g4x0Hb9hSB/BANEKJ+LbPBU0lzbAJs4xt1AoshKkUGQmiH8/jJ0gdhTTLmSegHlPE0oOdXALnqDjKYh3px//fSgSWG8UqfrrIICzYYSJXRr9BSPbpNzw7gBjKjKOYI7ReIGqQRIap5+5MdjyvuDkExvGeXSlONWZAP3/AZBwJohU7QJRGU+cTVH18ELmRPNBmibW6MT/k1b0XhdkRBvyT6SB6EYv/GvhSmRNpGngRULsAlxMCGNXp7w3FfdEbTEEDdLI9TdIKRUzUesa3I461ER8cpNT7gMRhpKmYVS9ELOgCUQsa4SsulciKiLbY+AnHD8cpuhISsnxpamI84sbDq9qYJgf8wiiOBrC7Ml7M7ZECCqKoiiKoiiKoiiKoijv5AvJxlZRyNWWLwAAAABJRU5ErkJggg==);
+}
+
+.stu_pic11{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQHW_cR6Ih0rfg/profile-displayphoto-shrink_400_400/0/1533376226715?e=1645660800&v=beta&t=1hFYYWqTkr35MUiNGezYQFvC2TaSk4-J2kt-rNadN0s);
+}

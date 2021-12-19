@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+
+.loginbox{
+    background:whitesmoke;
+    background-position: center;
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 95px;
+    padding: 45px;
+    border: 3px solid rgba(204, 204, 204, 0.733);
+    border-radius: 10px;
+    
+}
+
+.left input{
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#saveData{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+#saveData:hover{
+    background-color:white;
+    color: black;
+}

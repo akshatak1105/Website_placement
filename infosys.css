@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    width:100%;
+    min-height: 115vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
+}
+
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+}
+
+nav img{
+    width:150px;
+}
+
+nav img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+nav-links{
+    flex:1;
+    text-align: right;   
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:  13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+.name{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 160px;
+    padding-left: 20px;
+    width:10%;
+    height:50px;
+}
+
+.credit_suisse{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student{
+    width:20%;
+    height: 350px;
+    margin:15px;
+    padding:15px;
+}
+
+.stu_pic1{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQFPx2-huaumBg/profile-displayphoto-shrink_400_400/0/1568469549284?e=1645660800&v=beta&t=nDze07TV0cDD_dMrnFGIv5evbUtP2njP2O5IDzjFkEk);
+}
+
+.stu_name{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration:none ;
+    color: black;
+    border: 1px solid #fff;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background: white;
+    position: relative;
+    cursor:pointer;  
+}
+
+.stu_name:hover{
+    background: transparent;
+    color: white;
+    transition: 1s;
+}
+
+.stu_pic2{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/D5635AQEbaxD8O362PA/profile-framedphoto-shrink_400_400/0/1639739017578?e=1639994400&v=beta&t=WutwSqFGw78wBbZQ40pEE_oxlULpuuczSrUNfTFyIVw);
+}
+
+.stu_pic3{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQFuFjlKrfTAJw/profile-displayphoto-shrink_400_400/0/1566370270032?e=1645660800&v=beta&t=ShIfftqpg6HCglK64-fRJa-b1M2V7w8TtFpfPQWZzL8);
+}
+
+.stu_pic4{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQE3PHcmbRGY4g/profile-displayphoto-shrink_400_400/0/1519383213370?e=1645660800&v=beta&t=o8JSw3uk0v9knMGaueOzdq4Q4pTuFTBA_t9Nn9_iBWg);
+}
+
+.stu_pic5{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEnf2XFauw1cQ/profile-displayphoto-shrink_400_400/0/1637174648528?e=1645660800&v=beta&t=_fKOBPMcV0N9EUR-AoAFrOU5IE3aC3v9morpoEL2KyQ);
+}
+.stu_pic6{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQF3-C03aqtZfQ/profile-displayphoto-shrink_400_400/0/1638446387396?e=1645660800&v=beta&t=h6kMUlZvyBcNLTlAmgFbWYC2ZzzCyiVYfK3mU941kTw);
+}
+
+.stu_pic7{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQE3Fhaw2korqA/profile-displayphoto-shrink_400_400/0/1524077416242?e=1645660800&v=beta&t=9cD6KyrnZZVUPPibUI-lCi6x3WveW5vXVzXBPF7ctnc);
+}
+
+.stu_pic8{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEVfJ5gJcmcWQ/profile-displayphoto-shrink_400_400/0/1628331413584?e=1645660800&v=beta&t=U7bcNnrWwo3FylDsFb_4aCSOFJDy3Ej6AYSK_rRyFl8);
+}
+
+.stu_pic9{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5103AQEEew7ZRnWFIA/profile-displayphoto-shrink_400_400/0/1564209930624?e=1641427200&v=beta&t=QT8ju757alhhWXycYfx-PUgAIJq-DBlsovbU06lz0SE);
+}
+
+.stu_pic10{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQHu1eTlnvtQzA/profile-displayphoto-shrink_400_400/0/1605708840093?e=1645660800&v=beta&t=SWr7OLtuZm4EoUn_AmgVHGB6t_lGVnZOnplZeFoXavA);
+}
+
+.stu_pic11{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/D4E35AQHEqXApMRzg2w/profile-framedphoto-shrink_400_400/0/1625639759744?e=1639994400&v=beta&t=Pe5h41xXZ1DRr-5tYhpby7EjHYrDRCnCT3s88-eXGZs);
+}
+
+.stu_pic12{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQFTgUMuWG7TWg/profile-displayphoto-shrink_400_400/0/1628183759821?e=1645660800&v=beta&t=bOPUROpgW3Foq4uKaN3zvYFXSdfF1zAPwL3w22ylXLM);
+}
+
+.stu_pic13{
+    width:100%;
+    height: 300px;
+    padding: 2px;
+    background-position: center center;
+    margin-bottom: 2px;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQGWQekqKCjmMw/profile-displayphoto-shrink_400_400/0/1591901851217?e=1641427200&v=beta&t=XQaQ_UHNXLM4CguxHUok8DDm9sc47vEZxQTWVPgIBIA);
+}
