@@ -148,6 +148,7 @@ nav .fa{
     text-align: center;
     padding: 30px 0;
     /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg); */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
     background-size: cover;
     margin-top: 10px;
     /* margin-left: 10px;
@@ -155,11 +156,11 @@ nav .fa{
     margin-right: 10px; */
     
 }
-.about h3{
+.about h2{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
-    /* color: #fff; */
+    color: #fff;
 }
 .about pre{
     font-weight: 20px;
@@ -167,15 +168,12 @@ nav .fa{
     /* background: linear-gradient(rgba(105, 107, 116, 0.7),rgba(100, 102, 112, 0.7));
      */
     
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg); */
     background-size: cover;
-     width:65%;
-    margin-left: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #fff;
 }
-
 
 .about1{
     width: 90%;
@@ -202,6 +200,123 @@ nav .fa{
     flex-wrap: wrap;
 }
 
+.comp{
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
+    background-size: cover;
+    
+}
+.comp h2{
+    margin-top: 5px;
+    color: #fff;
+    padding-top: 50px;
+
+}
+.comp pre{
+    margin-top: 10px;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+
+}
+.compa{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg); */
+    width:80%;
+    margin-left: 120px;
+    padding-left: 55px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    gap:10px;
+
+    
+}
+
+.company_log1{
+    width: 70%;
+    height:100px;
+    margin-right: 10px;
+    /* background-position: center center; */
+    background-size: cover;
+    /* background-image: url(https://media-exp1.licdn.com/dms/image/C4D0BAQHeKEVElO-A3Q/company-logo_100_100/0/1519856310335?e=1643241600&v=beta&t=skqrab_To4Ni4Jo0aWXOvoa1AsqahNLlez2ZNfVKW7g); */
+}
+
+.gui{
+    width:30%;
+    height:420px;
+    background-image: url(https://suntechsolutions.com/img/swdevelopment.png);
+    /* background-size: cover; */
+    background-size: contain;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.gui:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+.detail{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration:none ;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    width: 18%;
+    height: 40px;
+    margin: 5px;
+    line-height: 40px;    
+    background: #fff;
+    position: relative;
+    cursor:pointer;  
+}
+.detail:hover{
+    color:white;
+    background:transparent;
+    border: 1px solid #fff;
+}
+.guide{
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(vit2.jpg);
+    background-size: cover;
+    padding-bottom: 15px;
+}
+.guide h2{
+    margin-top: 5px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.guide pre{
+    color: #fff;
+    padding-top: 10px;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration:none ;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+}
+.btn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
 .company{
     width:20%;
     height: 150px;
@@ -445,5 +560,6 @@ nav .fa{
     color: whitesmoke;
     
 }
+
 
 
